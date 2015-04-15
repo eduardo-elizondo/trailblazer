@@ -189,7 +189,7 @@ body {
 /* FIRST IMAGE
 -------------------------------------------------- */
 .firstimage {
-  background: url(staticpics/UCSB1)  no-repeat fixed;
+  background: url(/images/background2.jpg)  no-repeat fixed;
   height: 100%;
   background-size: cover;
   -webkit-background-size: cover;
@@ -237,7 +237,7 @@ body {
 
 .simage
 {    
-  background: url(staticpics/UCSB11.jpg) no-repeat fixed;
+  background: url(/images/background3.jpg) no-repeat fixed;
   height: 100%;
   background-size: cover;
   -webkit-background-size: cover;
@@ -325,7 +325,7 @@ div.overlay {
 }
 
 .schedimage {
-  background: url(staticpics/UCSB9.jpg) no-repeat fixed;
+  background: url(/images/background4.jpg) no-repeat fixed;
   height: 100%;
   background-size: cover;
   -webkit-background-size: cover;
@@ -442,7 +442,7 @@ div.overlay {
 /* Contact us 
 ------------------------- */
 .contactimage {
-  background: url(staticpics/UCSB7.jpg)  no-repeat fixed;
+  background: url(/images/background5.jpg)  no-repeat fixed;
   height: 100%;
   background-size: cover;
   -webkit-background-size: cover;
