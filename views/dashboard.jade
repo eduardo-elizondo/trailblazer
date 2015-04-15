@@ -1,0 +1,64 @@
+extends layout
+
+block content
+  link(rel='stylesheet', href='/stylesheets/sidebar.css')
+  include header
+  
+  div(id="wrapper")
+    div(id="sidebar-wrapper")
+      ul(class="sidebar-nav")
+        li(class="sidebar-brand")
+          a(href="#") Menu:
+        li
+          a(href="#") Park Overview
+        li
+          a(href="#") Create Post
+        li
+          a(href="#") View/Edit/Remove Post
+        li
+          a(href="#") View Map
+
+
+    div(id="page-content-wrapper")
+      div(class="container-fluid")
+        div(class="row")
+          div(class="col-lg-4")
+            div(class="row")
+              h2 Create a new Post:
+            div(class="row")
+              h4 District:
+              div(class='input-group input-group')
+                span(class='input-group-addon') @
+                input(type="text" class='form-control' placeholder="Post District...")
+            div(class="row")
+              h4 Type:
+              div(class='input-group input-group')
+                span(class='input-group-addon') #
+                input(type="text" class='form-control' placeholder="Post Type...")
+            div(class="row")
+              h4 Title:
+              div(class='input-group input-group')
+                span(class='input-group-addon')
+                input(type="text" class='form-control' placeholder="Post Title...")
+            div(class="row")
+              h4 Text:
+              div(class='form-group')
+                textarea(type="text" class='form-control' rows='6' placeholder="post information...")
+            div(class="row")
+              h4 Photo:
+              button(class='btn btn-default') upload
+            div(class="row")
+              h4 Photo Author:
+              div(class='input-group input-group')
+                span(class='input-group-addon')
+                input(type="text" class='form-control' placeholder="Photo Author...")
+          div(class="col-lg-8")
+            h2 Select geolocation point
+        br
+        div(class="row")
+          div(class="col-lg-4")
+          div(class="col-lg-4")
+            div(class='row')
+              button(class='btn btn-primary' style='display: block; width: 100%') Add Post
+          div(class="col-lg-4")
+          

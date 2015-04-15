@@ -1,5 +1,87 @@
-extends layout
+extends splashlayout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  link(href)
+  body(data-spy='scroll', data-target='.navbar', hola-ext-player='1')
+    #fb-root
+      .navbar-wrapper
+        .container
+          .navbar.navbar-default.navbar-fixed-top.affix-top(role='navigation', data-spy='affix', data-offset-top='650', style='display: none; visibility: visible;')
+            .container
+              .navbar-header
+                button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+                  span.sr-only Toggle navigation     
+                  span.icon-bar     
+                  span.icon-bar     
+                  span.icon-bar
+                a.navbar-brand(href='') SB Hacks
+              .navbar-collapse.collapse
+                ul.nav.navbar-nav
+                  li.active
+                    a(href='http://www.ucsbhacks.com/#home') Home
+                  li
+                    a(href='http://www.ucsbhacks.com/#about') About
+                  li
+                    a(href='http://www.ucsbhacks.com/prizes') Prizes
+                  li
+                    a(href='http://www.ucsbhacks.com/#sponsors') Sponsors
+                  li
+                    a(href='http://www.ucsbhacks.com/#contact') Contact    
+                ul.nav.navbar-nav.navbar-right
+                  li.fb-buttons
+                    .fb-like(data-href='https://www.facebook.com/ucsbhacks', data-layout='button', data-action='like', data-show-faces='false', data-share='true')
+    #home
+      .coverimage
+        img.logo(src='./images/logo.png')
+        .inner
+          p.header Ready to experience Trailblazer?   
+          p.header Apr 17 - 18 @ Princeton University
+    .firstimage
+      .overlay
+      .first_font
+        p.header The First and best and unique and best tail app     
+        p.header(style='font-size : .7em;')  Check us out at princeton U
+    #about
+      .container.marketing
+        .row
+          .col-md-4
+            img.img-circle(src='./images/binary.png', alt='Generic placeholder image')
+            h2 What is a Hackathon?        
+            p
+              | SB Hacks is an event in which a creative community of programmers - from novices to experienced - come together for 36 hours to make
+              | amazing projects. The projects are then judged by tech professionals from the industry and from
+              | academia.
+            center
+              a(href='https://medium.com/hackathons-anonymous/wtf-is-a-hackathon-92668579601', target='_blank') Click here to learn more.
+            p
+          .col-md-4
+            img.img-circle(src='./images/free.png', alt='Generic placeholder image')    
+            h2 How much does it cost to attend?
+            p
+              | Nothing. It&apos;s COMPLETELY free. You&apos;ll get amazing food and drinks
+              | the entire weekend, transportation to and from the event, countless amounts of swag, and so much more.
+          .col-md-4
+            img.img-circle(src='./images/student.png', alt='Generic placeholder image')    
+            h2 Who can attend?
+            p
+              | SB Hacks is accepting college students, graduate / PhD students, and high school students who are 18 or older. We unfortunately CANNOT give out travel reimbursements this year, but we will have buses available for major cities in California.
+        .row
+          .col-md-4
+            img.img-circle(src='./images/team.png', alt='Generic placeholder image')  
+            h2 Can I have a team?
+            p
+              | You can compete with up to 4 teammates. If you don&apos;t have a team, don&apos;t worry about it!
+              | We will match you up with compatible teammates at the event.
+          .col-md-4
+            img.img-circle(src='./images/award.png', alt='Generic placeholder image')
+            h2 How to win?
+            p
+              | SB Hacks is more focused on diverse strengths in coding, rather than having one &apos;winner&apos; of the event. Check out the 
+              a(href='http://www.ucsbhacks.com/prizes') prizes page
+              |  for more information, including a sneak peek at our amazing prizes this year.
+          .col-md-4
+            img.img-circle(src='./images/laptop.png', alt='Generic placeholder image')
+            h2 What to bring?
+            p A laptop and your ticket.
+
+  
