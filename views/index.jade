@@ -83,5 +83,195 @@ block content
             img.img-circle(src='./images/laptop.png', alt='Generic placeholder image')
             h2 What to bring?
             p A laptop and your ticket.
+    
+    #scontainer
+        .simage
+          .overlay
+          .first_font
+            p(style='font-size: 1.5em;') Code in paradise.|             
+            p(style='font-size: .8em;')  SB Hacks offers much more than just coding for 36 hours. 
+            p(style='font-size: .5em;')
+              | Come join 500 other creators as we spend a weekend building amazing projects in beautiful weather. Hike around a lagoon, destress with yoga on the beach, or just enjoy the sunshine on the lovely UCSB campus.
 
+    #schedule
+        .schedimage
+          .overlay
+          | &#x9;&#x9;&#x9;
+          .first_font
+            p(style='font-size: 1.2em;') There&apos;s plenty to do.
+            | &#x9;&#x9;&#x9;&#x9;
+            #sched-box-container
+              .sched-box
+                img.sched-box-image(src='./images/meditation.png', alt='Meditation')
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                p.sched-font-heading(style='color: #53c8e9;') Restore your chakra
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                p.sched-font-body(style='color: #53c8e9;') We&apos;ll have early morning meditation on Saturday and Sunday.
+              | &#x9;&#x9;&#x9;&#x9;&#x9;
+              .sched-box
+                img.sched-box-image(src='./images/trophy.png', alt='Trophy')
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                p.sched-font-heading(style='color: #19b5cc;') Gamer Heaven
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                p.sched-font-body(style='color: #19b5cc;') Citrix&apos;s FIFA and Halo Tournaments will have you saltier than our beach.
+              | &#x9;&#x9;&#x9;&#x9;&#x9;
+              .sched-box
+                img.sched-box-image(src='./images/football.png', alt='Football')
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                p.sched-font-heading(style='color: #138ea0;') Don&apos;t miss the superbowl
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                p.sched-font-body(style='color: #138ea0;') Why watch the superbowl at home or at the bar? Come to our tailgate party.
+              | &#x9;&#x9;&#x9;&#x9;&#x9;
+              .sched-box
+                img.sched-box-image(src='./images/beach_walk.png', alt='Beach Walks')
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                p.sched-font-heading(style='color: #13606b;') Romantic walks on the beach
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                p.sched-font-body(style='color: #13606b;') You&apos;ll fall in love with our campus.
+              | &#x9;&#x9;&#x9;&#x9;&#x9;
+              .sched-box
+                img.sched-box-image(src='./images/hackers.png', alt='Hacking')
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                p.sched-font-heading(style='color: #353939;') Oh yeah, and hacking
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                p.sched-font-body(style='color: #353939;')
+                  | 36 hours of glorious, glorious hacking with 
+                  a(href='http://www.ucsbhacks.com/prizes') prizes you can&apos;t even imagine.
+            |         
+            p(style='font-size: .8em;')
+              | For the full schedule 
+              a.test-popup-link(href='http://www.ucsbhacks.com/static/staticpics/hackschedule.png') click here.
+
+    #sponsors.container
+        h1.mobile
+          center
+            b SPONSORED BY
+        |           
+        a(href='http://www.citrix.com/', target='_blank')
+        center
+          a(href='http://www.citrix.com/', target='_blank')
+            img.sponsor-image(src='./images/citrix.png', style='width:60%;height:60%; ')
+          // Hammerhead
+          a(href='http://www.cisco.com/', target='_blank')
+          center
+            a(href='http://www.cisco.com/', target='_blank')
+              img.sponsor-image(src='./images/cisco.png', style='width:30%;height:30%; ')
+            |        
+            br
+            |        
+            a(href='https://www.opengov.com/', target='_blank')
+              img.sponsor-image(src='./images/opengov_dark.png', style='width:30%;height:30%;')
+            // Tiger
+            div
+              br
+            |          
+            a(href='https://guidebook.com/', target='_blank')
+              img.sponsor-image(hspace='20', src='./images/guidebook_logo_light.png', style='width:25%;height:25%;')
+            |         
+            a(href='https://shiphawk.com/', target='_blank')
+              img.sponsor-image(src='./images/shiphawk.png', style='width:25%;height:25%;')
+            |         
+            a(href='http://www.appfolio.com/', target='_blank')
+              img.sponsor-image(src='./images/appfolio.png', style='width:25%;height:25%;')
+            |         
+            div
+              br
+            |         
+            a(href='http://www.datastax.com/', target='_blank')
+              img.sponsor-image(src='./images/datastax.png', style='width:25%;height:25%;')
+            |         
+            a(href='https://www.mindbodyonline.com/', target='_blank')
+              img.sponsor-image(src='./images/mindbody.png', style='width:25%;height:25%;')
+            |         
+            br
+            // Bull
+            a(href='http://www.microsoft.com/en-us/default.aspx', target='_blank')
+              img.sponsor-image(src='./images/microsoft.jpg', style='width:20%;height:25%;')
+            |          
+            a(href='http://www.intel.com/content/www/us/en/homepage.html', target='_blank')
+              img.sponsor-image(src='./images/intel.png', style='width:10%;height:25%;')
+            |          
+            |         
+            a(href='https://www.makeschool.com/', target='_blank')
+              img.sponsor-image(src='./images/makeschool.png', style='width:20%;height:25%;')
+            |        
+            |        
+            a(href='https://developers.kloudless.com/', target='_blank')
+              img.sponsor-image(src='./images/kloudless_official.png', style='width:20%;height:25%;')
+            |         
+            br
+            |         
+            a(href='http://www.smartstones.co/', target='_blank')
+              img.sponsor-image(src='./images/smartstones.png', style='width:8%;height:25%;')
+            |         
+            a(href='http://www.heywatchencoding.com/', target='_blank')
+              img.sponsor-image(src='./images/heywatch.png', style='width:20%;height:25%;')
+            |         
+            a(href='http://www.qad.com/erp/', target='_blank')
+              img.sponsor-image(src='./images/qad.jpg', style='width:20%;height:25%;')
+            |         
+            a(href='http://www.rightscale.com/', target='_blank')
+              img.sponsor-image(src='./images/rightscale.jpg', style='width:20%;height:25%;')
+            |         
+            div
+              br
+            |         
+            a(href='http://www.worldviz.com/', target='_blank')
+              img.sponsor-image(src='./images/worldviz.png', style='width:20%;height:25%;')
+            |         
+            |         
+            |       
+            h2.mobile
+              center
+                b  With Support From 
+            |       
+            a(href='http://www.as.ucsb.edu/', target='_blank')
+              img.sponsor-image(src='./images/as_ucsb.png', style='width:8%;height:8%;')
+            |         
+            a(href='http://sbhackerspace.com/', target='_blank')
+              img.sponsor-image(src='./images/hackerspace.jpg', style='width:8%;height:10%;')
+            |        
+            a(href='http://mlh.io/', target='_blank')
+              img.sponsor-image(src='./images/mlh.png', style='width:20%;height:8%;')
+            |  
+            |         
+            |         
+            a(href='http://www.amazon.com/Amazon-Student/b?ie=UTF8&node=668781011', target='_blank')
+              img.sponsor-image(src='./images/amazon.jpg', style='width:15%;height:25%;')
+            |          
+            a(href='https://www.namecheap.com/', target='_blank')
+              img.sponsor-image(src='./images/namecheap.png', style='width:15%;height:25%;')
+            |         
+            a(href='https://www.hackerrank.com/', target='_blank')
+              img.sponsor-image(src='./images/hackerrank.jpg', style='width:15%;height:25%;')
+            |         
+            a(href='https://www.crunchbase.com/organization/tech-coast-angels', target='_blank')
+              img.sponsor-image(src='./images/techcoastangels.jpg', style='width:20%;height:8%;')
+            |  
+            |         
+            a(href='http://www.tmp.ucsb.edu/', target='_blank')
+              img.sponsor-image(src='./images/tmp.jpg', style='width:20%;height:8%;')
+            |  
+            |       
+            h2.mobile
+              center
+                b
+                  | Interested in sponsoring? Learn more
+                  a(href='http://www.ucsbhacks.com/static/staticpics/SB%20Hacks%20Sponsorship.pdf', target='_blank')
+                    | here
+      #contact
+        .contactimage
+          .overlay
+          |     
+          .first_font
+            p  Contact Us! 
+            p(style='font-size:0.5em;')  Get in touch with us at ucsbhacks@gmail.com 
+            a(href='https://www.facebook.com/ucsbhacks', target='_blank')
+              img(src='./images/fb.jpg')
+            a(href='https://twitter.com/SB_Hacks', target='_blank')
+              img(src='./images/twit.png')
+            p(style='font-size:1em;')
+              | Interested in volunteering? 
+              a(href='https://docs.google.com/forms/d/1pP-3T_5ri5qy_ohG_bz-bcxcGfdV-oG1EKI8YCI3pYk/viewform', target='_blank')
+                | Click here!
   
