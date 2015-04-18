@@ -6,3 +6,13 @@ body {
 a {
   color: #00B7FF;
 }
+
+.login {
+  float: right;  
+}
+
+#map-canvas { 
+  height: 100%; 
+  margin: 0; 
+  padding: 0;
+}

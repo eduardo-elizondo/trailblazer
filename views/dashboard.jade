@@ -1,6 +1,7 @@
-extends layout
+extends splashlayout
 
 block content
+  script(src='./javascripts/google_maps')
   link(rel='stylesheet', href='/stylesheets/sidebar.css')
   include header
   
@@ -21,6 +22,9 @@ block content
 
     div(id="page-content-wrapper")
       div(class="container-fluid")
+        div(class="row")
+          div(class="col-lg-12")
+            div .
         div(class="row")
           div(class="col-lg-4")
             div(class="row")
@@ -54,6 +58,7 @@ block content
                 input(type="text" class='form-control' placeholder="Photo Author...")
           div(class="col-lg-8")
             h2 Select geolocation point
+            iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29427.15925803415!2d-156.15440098144995!3d20.716484400628573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7954b73425a04bd1%3A0x9c23fd88e8f5f4ca!2sHaleakal%C4%81+National+Park!5e1!3m2!1sen!2sus!4v1429366489577" width="600" height="450" frameborder="0" style="border:0")
         br
         div(class="row")
           div(class="col-lg-4")

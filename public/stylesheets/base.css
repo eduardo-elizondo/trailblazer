@@ -21,20 +21,20 @@ body {
   background-color: #ffcd68;
   border-color: #febf40;
   z-index: 100000;
-  visibility: hidden;
-  opacity: 0.9;
+  visibility: visible;
+  opacity: 0.8;
 }
 .navbar-default .navbar-brand {
-  color: #ffffff;
+  color: #333;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   color: #a97c22;
 }
 .navbar-default .navbar-text {
-  color: #ffffff;
+  color: #333;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #ffffff;
+  color: #333;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #a97c22;
@@ -123,7 +123,7 @@ body {
 .logo {
   position:absolute;
   width: 35%;
-  top: 30%;
+  top: 35%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -134,7 +134,7 @@ body {
 }
 .inner{
     position:absolute;
-    top: 70%;
+    top: 80%;
     left: 50%;
     font-size: 3.5em;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -362,7 +362,7 @@ div.overlay {
 }
 
 .sched-box-image {
-  height: 125px;
+  height: 123px;
   width: 143px;
   margin: 10px 0px 10px 10px;
   border-right: solid #d18d20 8px;
